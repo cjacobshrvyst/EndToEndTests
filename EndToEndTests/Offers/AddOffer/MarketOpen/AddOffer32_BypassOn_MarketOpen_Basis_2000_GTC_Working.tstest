@@ -198,7 +198,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "cbc07d5f-016d-459b-9eb4-9cc4977e49a0",
+            "Runtime ID": "79925bce-83a1-4f97-968c-12706a3755b3",
             "Description": "Click 'CreateOfferSpan'",
             "CustomDescription": null,
             "Step": {
@@ -313,7 +313,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "AddOffer2_BypassOn_MarketClosed_Basis_2000_GTC_Workingn0jaqbkw.buz",
+            "StepImageKey": "AddOffer32_BypassOn_MarketOpen_Basis_2000_GTC_Workingwa12quqr.1gz",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -816,129 +816,6 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "c3cc8d61-1b88-4fcb-9b20-37e737f372a4",
-            "Description": "Desktop command: LeftClick on Span",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopActionDescriptor",
-              "__value": {
-                "Focus": true,
-                "ScrollToVisibleType": 2,
-                "DesktopActionType": 0,
-                "OffSet": {
-                  "__type": "ArtOfTest.Common.Design.ActionPoint",
-                  "__value": "0, 0, Percentage, AbsoluteCenter"
-                },
-                "UsejQuery": false,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "SearchByImageFirst": 0,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "https://st-eastus-hrvyst-app.azurewebsites.net/transactions",
-                          "Query": "",
-                          "BaseUrl": "",
-                          "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Transactions - HRVYSTHEDGE",
-                          "CompareMode": 2,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "TransactionsHRVYSTHEDGE"
-                        }
-                      },
-                      "Frame": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "x7ZfGDdAav0FKJ5DXd1XMAqIiVw=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "Span",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TagIndex=span:427"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/span[1]",
-                          "ImageSearchClauses": [
-                            {
-                              "__type": "ArtOfTest.Common.ImageSearchClause",
-                              "__value": {
-                                "Resolution": "3240, 2160",
-                                "BroweserType": 7,
-                                "Image": "42B601BC0D93DFCA6E350B46D113BF8E7FF9E40A87A0C57AB9B3C9C219062423",
-                                "Index": 0,
-                                "MatchThreshold": 90,
-                                "OsVersion": "10.0.19042.0",
-                                "ScreenScale": 2.0,
-                                "ScrollOnImageSearch": null
-                              }
-                            }
-                          ],
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 8,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "AddOffer32_BypassOn_MarketOpen_Basis_2000_GTC_Workingofkjoa5o.nwd",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
             "Runtime ID": "df4357f2-d682-4a72-8f0b-2c9e0864de50",
             "Description": "Desktop command: LeftClick on Div2",
             "CustomDescription": null,
@@ -1049,7 +926,7 @@
               }
             },
             "Enabled": true,
-            "Order": 9,
+            "Order": 8,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1167,7 +1044,7 @@
               }
             },
             "Enabled": true,
-            "Order": 10,
+            "Order": 9,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1296,7 +1173,7 @@
               }
             },
             "Enabled": true,
-            "Order": 11,
+            "Order": 10,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1414,7 +1291,7 @@
               }
             },
             "Enabled": true,
-            "Order": 12,
+            "Order": 11,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1532,7 +1409,7 @@
               }
             },
             "Enabled": true,
-            "Order": 13,
+            "Order": 12,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1661,7 +1538,7 @@
               }
             },
             "Enabled": true,
-            "Order": 14,
+            "Order": 13,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1784,7 +1661,7 @@
               }
             },
             "Enabled": true,
-            "Order": 15,
+            "Order": 14,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1907,7 +1784,7 @@
               }
             },
             "Enabled": true,
-            "Order": 16,
+            "Order": 15,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2036,7 +1913,7 @@
               }
             },
             "Enabled": true,
-            "Order": 17,
+            "Order": 16,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2077,11 +1954,135 @@
               }
             },
             "Enabled": true,
-            "Order": 18,
+            "Order": 17,
             "Id": "AddOffer32_BypassOn_MarketClosed_Basis_2000_GTC_Working_CodedStep3",
             "StepState": 1,
             "ContinueOnFailure": false,
             "StepImageKey": "AddOffer1_BypassOn_MarketClosed_Basis_2000_GTC_Working1d2y1og2.wnh",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "fdada0de-0341-4012-996a-951674218f39",
+            "Description": "Scroll QuantityText to top of window.",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.FocusActionDescriptor",
+              "__value": {
+                "ScrollVisibleType": 0,
+                "ScrollTypeSet": true,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://st-eastus-hrvyst-app.azurewebsites.net/transactions",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Transactions - HRVYSTHEDGE",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "TransactionsHRVYSTHEDGE"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "VxYdj6YL+Gj1Aa53iUAytowUEqU=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "QuantityText",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "name=quantity"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[2]/form[1]/div[14]/div[2]/div[1]/div[1]/span[1]/input[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "42B601BC0D93DFCA6E350B46D113BF8E7FF9E40A87A0C57AB9B3C9C219062423",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.19041.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 18,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "AddOffer32_BypassOn_MarketOpen_Basis_2000_GTC_Workingkepgd0v0.uuq",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -2602,7 +2603,7 @@
             "Order": 22,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
+            "ContinueOnFailure": false,
             "StepImageKey": "AddOffer2_BypassOn_MarketClosed_Basis_2000_GTC_Workingqf1p5sb2.r5q",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -3823,133 +3824,6 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "2a6f6ead-cec1-43d2-9127-436226257e1e",
-            "Description": "Keyboard (KeyPress) - Tab (12 times) on 'RcTabs0TabReviewAndReleaseDiv'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopKeyboardActionDescriptor",
-              "__value": {
-                "focus": true,
-                "KeyPress": "Tab",
-                "HoldFor": 150,
-                "Action": 0,
-                "RepeatCount": 12,
-                "UsejQuery": false,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "SearchByImageFirst": 0,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "https://st-eastus-hrvyst-app.azurewebsites.net/transactions",
-                          "Query": "",
-                          "BaseUrl": "",
-                          "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Transactions - HRVYSTHEDGE",
-                          "CompareMode": 2,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "TransactionsHRVYSTHEDGE"
-                        }
-                      },
-                      "Frame": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "tokFLuVsW1jHaC9QnzjHJ/vGK2Q=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "RcTabs0TabReviewAndReleaseDiv",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "id=rc-tabs-0-tab-reviewAndRelease"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=div"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/section[1]/section[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]",
-                          "ImageSearchClauses": [
-                            {
-                              "__type": "ArtOfTest.Common.ImageSearchClause",
-                              "__value": {
-                                "Resolution": "3240, 2160",
-                                "BroweserType": 7,
-                                "Image": "A23F81FE8338BDCC4CD926059ED5695472357E0C44B0A3D9D8623B08B7ECFBA9",
-                                "Index": 0,
-                                "MatchThreshold": 90,
-                                "OsVersion": "10.0.19042.0",
-                                "ScreenScale": 2.0,
-                                "ScrollOnImageSearch": null
-                              }
-                            }
-                          ],
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 33,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "AddOffer32_BypassOn_MarketOpen_Basis_2000_GTC_Working13esqjz0.c0g",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
             "Runtime ID": "bae65fd8-9502-4c21-a20d-862a51c6706a",
             "Description": "Desktop command: LeftClick on SvgTag",
             "CustomDescription": null,
@@ -4067,8 +3941,8 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": false,
-            "Order": 34,
+            "Enabled": true,
+            "Order": 33,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -4081,14 +3955,19 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "a762ced2-8018-455f-9088-3488f311c2d4",
-            "Description": "Click 'SvgTag'",
+            "Runtime ID": "0320e81a-4c11-45c9-b24c-ac3112ee2bbb",
+            "Description": "Desktop command: LeftClick on ViewDetailsSpan",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopActionDescriptor",
               "__value": {
-                "SimulateRealClick": true,
+                "Focus": true,
                 "ScrollToVisibleType": 2,
+                "DesktopActionType": 0,
+                "OffSet": {
+                  "__type": "ArtOfTest.Common.Design.ActionPoint",
+                  "__value": "0, 0, Percentage, AbsoluteCenter"
+                },
                 "UsejQuery": false,
                 "ClosesBrowser": false,
                 "AjaxTimeout": 0,
@@ -4128,10 +4007,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "0injMl1Vy4MALkC3lI+Il8b0nmA=",
+                          "uniqueKey": "ZghNAlr5quszEh2n7u96NpN3CCg=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "SvgTag",
+                          "Name": "ViewDetailsSpan",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -4142,36 +4021,34 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=rc-tabs-0-panel-reviewAndRelease"
+                                        "Clause": "TextContent=View Details"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagIndex=svg:8"
+                                        "Clause": "tagname=span"
                                       }
                                     }
                                   ],
                                   "Constraints": [],
-                                  "ChainStops": [
-                                    1
-                                  ]
+                                  "ChainStops": []
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/section[1]/section[1]/main[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/table[1]/tbody[1]/tr[2]/td[17]/div[1]/div[1]/button[1]/span[1]/svg[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/button[1]/span[2]",
                           "ImageSearchClauses": [
                             {
                               "__type": "ArtOfTest.Common.ImageSearchClause",
                               "__value": {
-                                "Resolution": "3240, 2160",
+                                "Resolution": "1920, 1080",
                                 "BroweserType": 7,
-                                "Image": "D7F1D1CD5DB57C6BDB136FDEF2DE58843CA22FFC1CF40E5CFBD021FE2EA6BCC4",
+                                "Image": "42B601BC0D93DFCA6E350B46D113BF8E7FF9E40A87A0C57AB9B3C9C219062423",
                                 "Index": 0,
                                 "MatchThreshold": 90,
-                                "OsVersion": "10.0.19042.0",
-                                "ScreenScale": 2.0,
+                                "OsVersion": "10.0.19041.0",
+                                "ScreenScale": 1.0,
                                 "ScrollOnImageSearch": null
                               }
                             }
@@ -4179,7 +4056,7 @@
                           "DataBindingExpressions": {}
                         }
                       },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
                       "IsIndependent": false,
                       "DomStateKey": "",
                       "TechnologyType": 1,
@@ -4194,11 +4071,11 @@
               }
             },
             "Enabled": true,
-            "Order": 35,
+            "Order": 34,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "AddOffer1_BypassOn_MarketOpen_Basis_2000_GTC_Workingrawjjy0s.s3p",
+            "ContinueOnFailure": false,
+            "StepImageKey": "AddOffer32_BypassOn_MarketOpen_Basis_2000_GTC_Workinghhe1uuf5.atb",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -4324,7 +4201,7 @@
               }
             },
             "Enabled": true,
-            "Order": 36,
+            "Order": 35,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
