@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfOpenItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <OpenItem>
+    <OpenItemType>TestFile</OpenItemType>
+    <Path>C:\Users\cjacobs\EndToEndTests\EndToEndTests\Offers\AddOffer\MarketOpen\AddOffer32_BypassOn_MarketOpen_Basis_2000_GTC_Working.tstest</Path>
+  </OpenItem>
+  <OpenItem>
+    <OpenItemType>TestFile</OpenItemType>
+    <Path>C:\Users\cjacobs\EndToEndTests\EndToEndTests\Offers\AddOffer\MarketOpen\AddOffer33_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest</Path>
+  </OpenItem>
+</ArrayOfOpenItem>
