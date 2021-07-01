@@ -1955,7 +1955,7 @@
             },
             "Enabled": true,
             "Order": 17,
-            "Id": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working_CodedStep2",
+            "Id": "AddOffer38_BypassOn_MarketClosed_Basis_2000_GTC_Working_CodedStep2",
             "StepState": 1,
             "ContinueOnFailure": false,
             "StepImageKey": "AddOffer1_BypassOn_MarketClosed_Basis_2000_GTC_Working1d2y1og2.wnh",
@@ -2359,19 +2359,15 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "93a5c517-4172-47d7-b51a-c5f3095f5cea",
-            "Description": "Desktop command: LeftClick on Text",
+            "Runtime ID": "556ad122-30f6-4564-bc44-18f833bb0896",
+            "Description": "Check 'GtcModeCheckBox' to be 'True'",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopActionDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CheckActionDescriptor",
               "__value": {
-                "Focus": true,
-                "ScrollToVisibleType": 2,
-                "DesktopActionType": 0,
-                "OffSet": {
-                  "__type": "ArtOfTest.Common.Design.ActionPoint",
-                  "__value": "0, 0, Percentage, AbsoluteCenter"
-                },
+                "CheckedState": true,
+                "InvokeOnClick": false,
+                "InvokeOnChange": false,
                 "UsejQuery": false,
                 "ClosesBrowser": false,
                 "AjaxTimeout": 0,
@@ -2388,10 +2384,10 @@
                   }
                 },
                 "Elements": {
-                  "target": {
+                  "checkBox": {
                     "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
                     "__value": {
-                      "Name": "target",
+                      "Name": "checkBox",
                       "Region": null,
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
@@ -2411,10 +2407,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "793uhqRbJy3Zd/HJ6WyQ2Ny60uo=",
+                          "uniqueKey": "v62fHXr4fkST8kYxkNHZNrjwCG0=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "Text",
+                          "Name": "GtcModeCheckBox",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -2425,7 +2421,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TagIndex=input:35"
+                                        "Clause": "name=gtcMode"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
                                       }
                                     }
                                   ],
@@ -2435,18 +2437,18 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[2]/form[1]/div[15]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[2]/form[1]/div[15]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/label[1]/span[1]/input[1]",
                           "ImageSearchClauses": [
                             {
                               "__type": "ArtOfTest.Common.ImageSearchClause",
                               "__value": {
-                                "Resolution": "1920, 1080",
+                                "Resolution": "3240, 2160",
                                 "BroweserType": 7,
-                                "Image": "91C1984A56A8CDD8DD287DD140DD9CB2DF3ECFA9255220297F1DFACBBA3F0E0A",
+                                "Image": "123E2F8C41A1637CB6F4DAC3E1E75636F5960245931D45FA4E1787CC425804EB",
                                 "Index": 0,
                                 "MatchThreshold": 90,
                                 "OsVersion": "10.0.19042.0",
-                                "ScreenScale": 1.0,
+                                "ScreenScale": 2.0,
                                 "ScrollOnImageSearch": null
                               }
                             }
@@ -2454,7 +2456,7 @@
                           "DataBindingExpressions": {}
                         }
                       },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputCheckBox",
                       "IsIndependent": false,
                       "DomStateKey": "",
                       "TechnologyType": 1,
@@ -2473,48 +2475,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Today_Workinghxh3ek5k.wet",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "35e64b2b-84d6-4f44-975d-b24552dd553b",
-            "Description": "Enter text '754' in 'Text'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
-              "__value": {
-                "Code": "                        // Enter text '754' in 'Text'\r\n                        Actions.SetText(Pages.TransactionsHRVYSTHEDGE.Text, \"\");\r\n                        Pages.TransactionsHRVYSTHEDGE.Text.ScrollToVisible(ArtOfTest.WebAii.Core.ScrollToVisibleType.ElementCenterAtWindowCenter);\r\n                        ActiveBrowser.Window.SetFocus();\r\n                        Pages.TransactionsHRVYSTHEDGE.Text.Focus();\r\n                        Pages.TransactionsHRVYSTHEDGE.Text.MouseClick();\r\n                        string date = DateTime.Now.Date.AddDays(1).ToString(\"yyyy-MM-dd\");\r\n                        Manager.Desktop.KeyBoard.TypeText(date, 50, 100, true);\r\n                        ",
-                "RequiresSilverlight": false,
-                "WaitOnElements": true,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "SearchByImageFirst": 0,
-                "Pause": 0,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {},
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 22,
-            "Id": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working_CodedStep3",
-            "StepState": 1,
-            "ContinueOnFailure": false,
-            "StepImageKey": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Today_Workingsmyy23dx.d5x",
+            "StepImageKey": "AddOffer2_BypassOn_MarketClosed_Basis_2000_GTC_Workingsziisysv.tpb",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -2639,7 +2600,7 @@
               }
             },
             "Enabled": true,
-            "Order": 23,
+            "Order": 22,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2652,7 +2613,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "a3c0b228-9dda-481a-8b1b-ee12cc7c4f30",
+            "Runtime ID": "0b75dd87-6ff0-425b-a073-29f1c363282c",
             "Description": "Enter text 'maria' in 'RcSelect26Text'",
             "CustomDescription": null,
             "Step": {
@@ -2747,13 +2708,13 @@
                             {
                               "__type": "ArtOfTest.Common.ImageSearchClause",
                               "__value": {
-                                "Resolution": "1920, 1080",
+                                "Resolution": "3240, 2160",
                                 "BroweserType": 7,
-                                "Image": "A3037D2673B323A545A68B27C7223FC5C24247AD18EF09E3AA1E7E85CBBCE1B4",
-                                "Index": 0,
+                                "Image": "0D03D028B2202CC6199EED04E51207C94BA009DE094650E5D81EE77D2E746716",
+                                "Index": 3,
                                 "MatchThreshold": 90,
                                 "OsVersion": "10.0.19042.0",
-                                "ScreenScale": 1.0,
+                                "ScreenScale": 2.0,
                                 "ScrollOnImageSearch": null
                               }
                             }
@@ -2778,11 +2739,11 @@
               }
             },
             "Enabled": true,
-            "Order": 24,
+            "Order": 23,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Today_Workingpxk4c1ij.pzl",
+            "StepImageKey": "AddOffer2_BypassOn_MarketClosed_Basis_2000_GTC_Workingfs1r1zwm.tay",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -2791,7 +2752,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "01e18148-ce12-47a5-8d0c-e842b557bd22",
+            "Runtime ID": "da429688-f0e9-47f9-aca4-02263ddcb679",
             "Description": "Desktop command: LeftClick on Div",
             "CustomDescription": null,
             "Step": {
@@ -2843,10 +2804,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "+379O29FPIcC7QVPcZkI1CtLLmQ=",
+                          "uniqueKey": "VlN590pfEm/lGwEHqcwQn/mVAX8=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "Div7",
+                          "Name": "Div3",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -2857,7 +2818,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TagIndex=div:2018"
+                                        "Clause": "TagIndex=div:1965"
                                       }
                                     }
                                   ],
@@ -2867,18 +2828,18 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[8]/div[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[7]/div[1]",
                           "ImageSearchClauses": [
                             {
                               "__type": "ArtOfTest.Common.ImageSearchClause",
                               "__value": {
-                                "Resolution": "1920, 1080",
+                                "Resolution": "3240, 2160",
                                 "BroweserType": 7,
                                 "Image": "42B601BC0D93DFCA6E350B46D113BF8E7FF9E40A87A0C57AB9B3C9C219062423",
                                 "Index": 0,
                                 "MatchThreshold": 90,
                                 "OsVersion": "10.0.19042.0",
-                                "ScreenScale": 1.0,
+                                "ScreenScale": 2.0,
                                 "ScrollOnImageSearch": null
                               }
                             }
@@ -2901,11 +2862,11 @@
               }
             },
             "Enabled": true,
-            "Order": 25,
+            "Order": 24,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Today_Workingekpeui1j.sx3",
+            "StepImageKey": "AddOffer1_BypassOn_MarketOpen_Basis_2000_GTC_Workingcpwv2izy.uax",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -3030,7 +2991,7 @@
               }
             },
             "Enabled": true,
-            "Order": 26,
+            "Order": 25,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -3169,7 +3130,7 @@
               }
             },
             "Enabled": true,
-            "Order": 27,
+            "Order": 26,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -3182,7 +3143,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "4abc1ef3-5e6d-4b6d-9ba7-a4eeb2e83a7a",
+            "Runtime ID": "816c4df8-c642-41c7-b3a2-0594695d4310",
             "Description": "Desktop command: LeftClick on Div",
             "CustomDescription": null,
             "Step": {
@@ -3234,10 +3195,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "0BXXfgRVT2P8hRtd10InXoJymr8=",
+                          "uniqueKey": "6LhH3yilNp7iPo542jsEfxQOXVI=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "Div8",
+                          "Name": "Div5",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -3248,7 +3209,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TagIndex=div:2029"
+                                        "Clause": "TagIndex=div:1976"
                                       }
                                     }
                                   ],
@@ -3258,18 +3219,18 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[9]/div[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[8]/div[1]",
                           "ImageSearchClauses": [
                             {
                               "__type": "ArtOfTest.Common.ImageSearchClause",
                               "__value": {
-                                "Resolution": "1920, 1080",
+                                "Resolution": "3240, 2160",
                                 "BroweserType": 7,
                                 "Image": "42B601BC0D93DFCA6E350B46D113BF8E7FF9E40A87A0C57AB9B3C9C219062423",
                                 "Index": 0,
                                 "MatchThreshold": 90,
                                 "OsVersion": "10.0.19042.0",
-                                "ScreenScale": 1.0,
+                                "ScreenScale": 2.0,
                                 "ScrollOnImageSearch": null
                               }
                             }
@@ -3292,11 +3253,11 @@
               }
             },
             "Enabled": true,
-            "Order": 28,
+            "Order": 27,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Today_Working50sxnzxy.dqe",
+            "StepImageKey": "AddOffer1_BypassOn_MarketOpen_Basis_2000_GTC_Workingl2aviv0m.2x5",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -3416,7 +3377,7 @@
               }
             },
             "Enabled": true,
-            "Order": 29,
+            "Order": 28,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -3456,7 +3417,7 @@
               }
             },
             "Enabled": true,
-            "Order": 30,
+            "Order": 29,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -3591,7 +3552,7 @@
               }
             },
             "Enabled": true,
-            "Order": 31,
+            "Order": 30,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -3726,7 +3687,7 @@
               }
             },
             "Enabled": true,
-            "Order": 32,
+            "Order": 31,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -3850,7 +3811,7 @@
               }
             },
             "Enabled": true,
-            "Order": 33,
+            "Order": 32,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -3981,7 +3942,7 @@
               }
             },
             "Enabled": true,
-            "Order": 34,
+            "Order": 33,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -4110,7 +4071,7 @@
               }
             },
             "Enabled": true,
-            "Order": 35,
+            "Order": 34,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -4240,7 +4201,7 @@
               }
             },
             "Enabled": true,
-            "Order": 36,
+            "Order": 35,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -4819,10 +4780,10 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "EndToEndTests.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "EndToEndTests.AddOffer104_BypassOn_MarketClosed_Basis_2000_Future_Working",
+    "TestClass": "EndToEndTests.AddOffer105_BypassOn_MarketClosed_Basis_2000_GTC_Working",
     "IsManual": false,
-    "ResourceFilePath": "Offers\\AddOffer\\MarketOpen\\AddOffer104_BypassOn_MarketClosed_Basis_2000_Future_Working.resx",
-    "ElementImageStoreFilePath": "Offers\\AddOffer\\MarketOpen\\AddOffer104_BypassOn_MarketClosed_Basis_2000_Future_Working.imgstore",
+    "ResourceFilePath": "Offers\\AddOffer\\MarketClosed\\AddOffer105_BypassOn_MarketClosed_Basis_2000_GTC_Working.resx",
+    "ElementImageStoreFilePath": "Offers\\AddOffer\\MarketClosed\\AddOffer105_BypassOn_MarketClosed_Basis_2000_GTC_Working.imgstore",
     "HasCodeBehind": true,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -4852,13 +4813,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "AddOffer104_BypassOn_MarketClosed_Basis_2000_Future_Working",
+    "Name": "AddOffer105_BypassOn_MarketClosed_Basis_2000_GTC_Working",
     "Owner": "",
-    "Path": "Offers\\AddOffer\\MarketOpen\\AddOffer104_BypassOn_MarketClosed_Basis_2000_Future_Working.tstest",
+    "Path": "Offers\\AddOffer\\MarketClosed\\AddOffer105_BypassOn_MarketClosed_Basis_2000_GTC_Working.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "9f55d1f0-2d5f-49bd-a5eb-29ef93282d9b",
-    "Id": "9f55d1f0-2d5f-49bd-a5eb-29ef93282d9b",
+    "UniqueId": "cd5386ec-13e2-45f0-9ca3-f756e7f9a814",
+    "Id": "cd5386ec-13e2-45f0-9ca3-f756e7f9a814",
     "ProjectId": "920ec962-cceb-4ddb-9088-790771191113",
     "Version": 200
   }

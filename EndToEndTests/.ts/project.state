@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfOpenItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <OpenItem>
+    <OpenItemType>CodeFile</OpenItemType>
+    <Path>C:\Users\cjacobs\EndToEndTests\EndToEndTests\Offers\AddOffer\MarketOpen\AddOffer107_BypassOn_MarketClosed_Basis_5001_Today_Working.tstest.cs</Path>
+  </OpenItem>
+  <OpenItem>
+    <OpenItemType>CodeFile</OpenItemType>
+    <Path>C:\Users\cjacobs\EndToEndTests\EndToEndTests\Offers\AddOffer\MarketOpen\AddOffer108_BypassOn_MarketClosed_Basis_5001_Future_Working.tstest.cs</Path>
+  </OpenItem>
+  <OpenItem>
+    <OpenItemType>CodeFile</OpenItemType>
+    <Path>C:\Users\cjacobs\EndToEndTests\EndToEndTests\Offers\AddOffer\MarketOpen\AddOffer109_BypassOn_MarketClosed_Basis_8001_GTC_Working.tstest.cs</Path>
+  </OpenItem>
+  <OpenItem>
+    <OpenItemType>CodeFile</OpenItemType>
+    <Path>C:\Users\cjacobs\EndToEndTests\EndToEndTests\Offers\AddOffer\MarketOpen\AddOffer110_BypassOn_MarketClosed_Basis_8001_Today_Working.tstest.cs</Path>
+  </OpenItem>
+  <OpenItem>
+    <OpenItemType>CodeFile</OpenItemType>
+    <Path>C:\Users\cjacobs\EndToEndTests\EndToEndTests\Offers\AddOffer\MarketOpen\AddOffer111_BypassOn_MarketClosed_Basis_8001_Future_Working.tstest.cs</Path>
+  </OpenItem>
+  <OpenItem>
     <OpenItemType>TestFile</OpenItemType>
-    <Path>C:\Users\cjacobs\EndToEndTests\EndToEndTests\Offers\AddOffer\MarketOpen\AddOffer36_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest</Path>
+    <Path>C:\Users\cjacobs\EndToEndTests\EndToEndTests\Offers\AddOffer\MarketOpen\AddOffer111_BypassOn_MarketClosed_Basis_8001_Future_Working.tstest</Path>
   </OpenItem>
 </ArrayOfOpenItem>

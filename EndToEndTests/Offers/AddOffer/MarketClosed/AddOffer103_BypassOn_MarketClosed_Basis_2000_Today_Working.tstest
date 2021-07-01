@@ -2220,19 +2220,35 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "bee9d827-8b4f-43e6-93c2-e9c21764bc50",
+            "Runtime ID": "a0f46f41-a950-4067-bcc4-1d7a4f2d7451",
             "Description": "Enter text '2,000' in 'QuantityText'",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
               "__value": {
-                "Code": "            // Enter text '2,000' in 'QuantityText'\r\n            Actions.SetText(Pages.TransactionsHRVYSTHEDGE.QuantityText, \"\");\r\n            Pages.TransactionsHRVYSTHEDGE.QuantityText.ScrollToVisible(ArtOfTest.WebAii.Core.ScrollToVisibleType.ElementCenterAtWindowCenter);\r\n            ActiveBrowser.Window.SetFocus();\r\n            Pages.TransactionsHRVYSTHEDGE.QuantityText.Focus();\r\n            Pages.TransactionsHRVYSTHEDGE.QuantityText.MouseClick();\r\n            Manager.Desktop.KeyBoard.TypeText(\"5,001\", 50, 100, true);\r\n            ",
-                "RequiresSilverlight": false,
-                "WaitOnElements": true,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "SearchByImageFirst": 0,
+                "RawText": "2,000",
+                "SimulateRealTyping": true,
+                "TypingSpeed": 50,
+                "KeyHoldTime": 100,
+                "IsPassword": false,
+                "TypingInfo": {
+                  "ElementText": "2",
+                  "TypedText": "2",
+                  "CaretPosition": 1,
+                  "IsTextArea": false,
+                  "IsBackSpace": false
+                },
+                "Encrypt": false,
+                "SupportUnicode": true,
+                "ScrollToVisibleType": 2,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
                 "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
                 "RunsAgainstVersion": "",
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
@@ -2240,19 +2256,101 @@
                     "ConstraintValues": {}
                   }
                 },
-                "Elements": {},
+                "Elements": {
+                  "textTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "textTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://st-eastus-hrvyst-app.azurewebsites.net/transactions",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Transactions - HRVYSTHEDGE",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "TransactionsHRVYSTHEDGE"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "VxYdj6YL+Gj1Aa53iUAytowUEqU=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "QuantityText",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "name=quantity"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[2]/form[1]/div[14]/div[2]/div[1]/div[1]/span[1]/input[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "3240, 2160",
+                                "BroweserType": 7,
+                                "Image": "CF36687BC2BBA8247EBCE66047795D26E53D3CB1AA8FE974F2C6D7A29348D02F",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.19042.0",
+                                "ScreenScale": 2.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
                 "StepType": 4,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
-                "DataBindingExpressions": {}
+                "DataBindingExpressions": {},
+                "_canEncrypt": false,
+                "_cipher": null
               }
             },
             "Enabled": true,
             "Order": 20,
-            "Id": "AddOffer40_BypassOn_MarketOpen_Basis_5001_Today_Working_CodedStep",
-            "StepState": 1,
+            "Id": "",
+            "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "AddOffer40_BypassOn_MarketOpen_Basis_5001_Today_Workingciv4doha.bsi",
+            "StepImageKey": "AddOffer2_BypassOn_MarketClosed_Basis_2000_GTC_Workingaqyqsdna.35i",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -4708,85 +4806,6 @@
           "TechnologyType": 1,
           "Version": 200
         }
-      },
-      {
-        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-        "__value": {
-          "Name": "",
-          "Region": null,
-          "Page": {
-            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-            "__value": {
-              "Path": "https://st-eastus-hrvyst-app.azurewebsites.net/transactions",
-              "Query": "",
-              "BaseUrl": "",
-              "EquivalentUrls": [],
-              "Fragment": "",
-              "Title": "Transactions - HRVYSTHEDGE",
-              "CompareMode": 2,
-              "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "TransactionsHRVYSTHEDGE"
-            }
-          },
-          "Frame": null,
-          "FindExpression": {
-            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-            "__value": {
-              "uniqueKey": "VxYdj6YL+Gj1Aa53iUAytowUEqU=",
-              "NodeKind": 4,
-              "TechnologyType": 1,
-              "Name": "QuantityText",
-              "FindExpressions": [
-                {
-                  "Key": 1,
-                  "Value": {
-                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                    "__value": {
-                      "Clauses": [
-                        {
-                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                          "__value": {
-                            "Clause": "name=quantity"
-                          }
-                        },
-                        {
-                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                          "__value": {
-                            "Clause": "tagname=input"
-                          }
-                        }
-                      ],
-                      "Constraints": [],
-                      "ChainStops": []
-                    }
-                  }
-                }
-              ],
-              "BackupSearchClause": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[2]/form[1]/div[14]/div[2]/div[1]/div[1]/span[1]/input[1]",
-              "ImageSearchClauses": [
-                {
-                  "__type": "ArtOfTest.Common.ImageSearchClause",
-                  "__value": {
-                    "Resolution": "3240, 2160",
-                    "BroweserType": 7,
-                    "Image": "CF36687BC2BBA8247EBCE66047795D26E53D3CB1AA8FE974F2C6D7A29348D02F",
-                    "Index": 0,
-                    "MatchThreshold": 90,
-                    "OsVersion": "10.0.19042.0",
-                    "ScreenScale": 2.0,
-                    "ScrollOnImageSearch": null
-                  }
-                }
-              ],
-              "DataBindingExpressions": {}
-            }
-          },
-          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
-          "IsIndependent": true,
-          "DomStateKey": "",
-          "TechnologyType": 1,
-          "Version": 200
-        }
       }
     ],
     "HtmlDescription": "",
@@ -4800,10 +4819,10 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "EndToEndTests.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "EndToEndTests.AddOffer107_BypassOn_MarketClosed_Basis_5001_Today_Working",
+    "TestClass": "EndToEndTests.AddOffer103_BypassOn_MarketClosed_Basis_2000_Today_Working",
     "IsManual": false,
-    "ResourceFilePath": "Offers\\AddOffer\\MarketOpen\\AddOffer107_BypassOn_MarketClosed_Basis_5001_Today_Working.resx",
-    "ElementImageStoreFilePath": "Offers\\AddOffer\\MarketOpen\\AddOffer107_BypassOn_MarketClosed_Basis_5001_Today_Working.imgstore",
+    "ResourceFilePath": "Offers\\AddOffer\\MarketClosed\\AddOffer103_BypassOn_MarketClosed_Basis_2000_Today_Working.resx",
+    "ElementImageStoreFilePath": "Offers\\AddOffer\\MarketClosed\\AddOffer103_BypassOn_MarketClosed_Basis_2000_Today_Working.imgstore",
     "HasCodeBehind": true,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -4833,13 +4852,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "AddOffer107_BypassOn_MarketClosed_Basis_5001_Today_Working",
+    "Name": "AddOffer103_BypassOn_MarketClosed_Basis_2000_Today_Working",
     "Owner": "",
-    "Path": "Offers\\AddOffer\\MarketOpen\\AddOffer107_BypassOn_MarketClosed_Basis_5001_Today_Working.tstest",
+    "Path": "Offers\\AddOffer\\MarketClosed\\AddOffer103_BypassOn_MarketClosed_Basis_2000_Today_Working.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "69f98a65-7654-4a82-950a-c527d9cfcfe5",
-    "Id": "69f98a65-7654-4a82-950a-c527d9cfcfe5",
+    "UniqueId": "e46c9d76-ba10-4452-86c3-827df0638834",
+    "Id": "e46c9d76-ba10-4452-86c3-827df0638834",
     "ProjectId": "920ec962-cceb-4ddb-9088-790771191113",
     "Version": 200
   }

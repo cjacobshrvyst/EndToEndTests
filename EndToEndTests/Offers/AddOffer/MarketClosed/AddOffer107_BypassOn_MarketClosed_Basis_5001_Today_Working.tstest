@@ -1955,7 +1955,7 @@
             },
             "Enabled": true,
             "Order": 17,
-            "Id": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working_CodedStep2",
+            "Id": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working_CodedStep2",
             "StepState": 1,
             "ContinueOnFailure": false,
             "StepImageKey": "AddOffer1_BypassOn_MarketClosed_Basis_2000_GTC_Working1d2y1og2.wnh",
@@ -2220,7 +2220,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "07b50eaf-9064-44ea-a94a-6c77d6453438",
+            "Runtime ID": "bee9d827-8b4f-43e6-93c2-e9c21764bc50",
             "Description": "Enter text '2,000' in 'QuantityText'",
             "CustomDescription": null,
             "Step": {
@@ -2249,10 +2249,10 @@
             },
             "Enabled": true,
             "Order": 20,
-            "Id": "AddOffer41_BypassOn_MarketOpen_Basis_5001_Future_Working_CodedStep",
+            "Id": "AddOffer40_BypassOn_MarketOpen_Basis_5001_Today_Working_CodedStep",
             "StepState": 1,
             "ContinueOnFailure": false,
-            "StepImageKey": "AddOffer41_BypassOn_MarketOpen_Basis_5001_Future_Working4pko4hrs.fqg",
+            "StepImageKey": "AddOffer40_BypassOn_MarketOpen_Basis_5001_Today_Workingciv4doha.bsi",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -2390,7 +2390,7 @@
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "                        // Enter text '754' in 'Text'\r\n                        Actions.SetText(Pages.TransactionsHRVYSTHEDGE.Text, \"\");\r\n                        Pages.TransactionsHRVYSTHEDGE.Text.ScrollToVisible(ArtOfTest.WebAii.Core.ScrollToVisibleType.ElementCenterAtWindowCenter);\r\n                        ActiveBrowser.Window.SetFocus();\r\n                        Pages.TransactionsHRVYSTHEDGE.Text.Focus();\r\n                        Pages.TransactionsHRVYSTHEDGE.Text.MouseClick();\r\n                        string date = DateTime.Now.Date.AddDays(1).ToString(\"yyyy-MM-dd\");\r\n                        Manager.Desktop.KeyBoard.TypeText(date, 50, 100, true);\r\n                        ",
+                "Code": "                        // Enter text '754' in 'Text'\r\n                        Actions.SetText(Pages.TransactionsHRVYSTHEDGE.Text, \"\");\r\n                        Pages.TransactionsHRVYSTHEDGE.Text.ScrollToVisible(ArtOfTest.WebAii.Core.ScrollToVisibleType.ElementCenterAtWindowCenter);\r\n                        ActiveBrowser.Window.SetFocus();\r\n                        Pages.TransactionsHRVYSTHEDGE.Text.Focus();\r\n                        Pages.TransactionsHRVYSTHEDGE.Text.MouseClick();\r\n                        string date = DateTime.Now.Date.ToString(\"yyyy-MM-dd\");\r\n                        Manager.Desktop.KeyBoard.TypeText(date, 50, 100, true);\r\n                        ",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
@@ -2413,7 +2413,7 @@
             },
             "Enabled": true,
             "Order": 22,
-            "Id": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working_CodedStep3",
+            "Id": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working_CodedStep3",
             "StepState": 1,
             "ContinueOnFailure": false,
             "StepImageKey": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Today_Workingsmyy23dx.d5x",
@@ -4800,10 +4800,10 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "EndToEndTests.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "EndToEndTests.AddOffer108_BypassOn_MarketClosed_Basis_5001_Future_Working",
+    "TestClass": "EndToEndTests.AddOffer107_BypassOn_MarketClosed_Basis_5001_Today_Working",
     "IsManual": false,
-    "ResourceFilePath": "Offers\\AddOffer\\MarketOpen\\AddOffer108_BypassOn_MarketClosed_Basis_5001_Future_Working.resx",
-    "ElementImageStoreFilePath": "Offers\\AddOffer\\MarketOpen\\AddOffer108_BypassOn_MarketClosed_Basis_5001_Future_Working.imgstore",
+    "ResourceFilePath": "Offers\\AddOffer\\MarketClosed\\AddOffer107_BypassOn_MarketClosed_Basis_5001_Today_Working.resx",
+    "ElementImageStoreFilePath": "Offers\\AddOffer\\MarketClosed\\AddOffer107_BypassOn_MarketClosed_Basis_5001_Today_Working.imgstore",
     "HasCodeBehind": true,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -4833,13 +4833,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "AddOffer108_BypassOn_MarketClosed_Basis_5001_Future_Working",
+    "Name": "AddOffer107_BypassOn_MarketClosed_Basis_5001_Today_Working",
     "Owner": "",
-    "Path": "Offers\\AddOffer\\MarketOpen\\AddOffer108_BypassOn_MarketClosed_Basis_5001_Future_Working.tstest",
+    "Path": "Offers\\AddOffer\\MarketClosed\\AddOffer107_BypassOn_MarketClosed_Basis_5001_Today_Working.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "cd512459-0cea-43d3-851c-6c0dd1d23e9c",
-    "Id": "cd512459-0cea-43d3-851c-6c0dd1d23e9c",
+    "UniqueId": "69f98a65-7654-4a82-950a-c527d9cfcfe5",
+    "Id": "69f98a65-7654-4a82-950a-c527d9cfcfe5",
     "ProjectId": "920ec962-cceb-4ddb-9088-790771191113",
     "Version": 200
   }
