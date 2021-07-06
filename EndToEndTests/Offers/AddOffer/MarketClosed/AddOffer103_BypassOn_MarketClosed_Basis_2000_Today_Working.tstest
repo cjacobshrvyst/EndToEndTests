@@ -4124,14 +4124,14 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "1364a437-0f6d-4c4c-8cfe-9628cae158ed",
-            "Description": "Verify 'TextContent' 'NotContain' 'TZ-001997' on 'TZ001997Span' - DataDriven: [$(OrderNoSpan)]",
+            "Description": "Verify 'TextContent' 'NotContain' '' on 'TZ001997Span' - DataDriven: [$(OrderNoSpan)]",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
               "__value": {
                 "CompareType": 3,
                 "SegmentType": 3,
-                "ExpectedString": "TZ-001997",
+                "ExpectedString": "",
                 "DataBindVariableName": null,
                 "Timeout": 30000,
                 "CheckInterval": 500,
