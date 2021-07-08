@@ -1810,7 +1810,7 @@
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "            // Enter text '5' in 'FlatPriceNumber'\r\n            Actions.SetText(Pages.TransactionsHRVYSTHEDGE.FlatPriceNumber, \"\");\r\n            Pages.TransactionsHRVYSTHEDGE.FlatPriceNumber.ScrollToVisible(ArtOfTest.WebAii.Core.ScrollToVisibleType.ElementCenterAtWindowCenter);\r\n            ActiveBrowser.Window.SetFocus();\r\n            Pages.TransactionsHRVYSTHEDGE.FlatPriceNumber.Focus();\r\n            Pages.TransactionsHRVYSTHEDGE.FlatPriceNumber.MouseClick();\r\n            Manager.Desktop.KeyBoard.TypeText(\"5..01\", 50, 100, true);\r\n            ",
+                "Code": "            // Enter text '5' in 'FlatPriceNumber'\r\n            Actions.SetText(Pages.TransactionsHRVYSTHEDGE.FlatPriceNumber, \"\");\r\n            Pages.TransactionsHRVYSTHEDGE.FlatPriceNumber.ScrollToVisible(ArtOfTest.WebAii.Core.ScrollToVisibleType.ElementCenterAtWindowCenter);\r\n            ActiveBrowser.Window.SetFocus();\r\n            Pages.TransactionsHRVYSTHEDGE.FlatPriceNumber.Focus();\r\n            Pages.TransactionsHRVYSTHEDGE.FlatPriceNumber.MouseClick();\r\n            Manager.Desktop.KeyBoard.TypeText(\"5.01\", 50, 100, true);\r\n            ",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
@@ -3229,7 +3229,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "b6xDLWPFG8upFg9ei6izYdMaR2I=",
+                          "uniqueKey": "I1Bz7F90/i1cMXdwS6pWXDsqTKY=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "cashpriceText",
@@ -3249,7 +3249,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagIndex=p:12"
+                                        "Clause": "tagIndex=tr:2"
                                       }
                                     },
                                     {
