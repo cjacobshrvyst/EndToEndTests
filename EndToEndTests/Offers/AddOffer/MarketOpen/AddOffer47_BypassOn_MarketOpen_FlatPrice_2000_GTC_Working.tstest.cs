@@ -105,7 +105,7 @@ namespace EndToEndTests
             ActiveBrowser.Window.SetFocus();
             Pages.TransactionsHRVYSTHEDGE.FlatPriceNumber.Focus();
             Pages.TransactionsHRVYSTHEDGE.FlatPriceNumber.MouseClick();
-            Manager.Desktop.KeyBoard.TypeText("5..01", 50, 100, true);
+            Manager.Desktop.KeyBoard.TypeText("5.01", 50, 100, true);
             
         }
     }
