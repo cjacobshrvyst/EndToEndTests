@@ -108,5 +108,20 @@ namespace EndToEndTests
             Manager.Desktop.KeyBoard.TypeText("8,001", 50, 100, true);
             
         }
+    
+        [CodedStep(@"Enter text '1.2' in 'PostedBasisNumber'")]
+        public void AddOffer38_BypassOn_MarketClosed_Basis_2000_GTC_Working_CodedStepEditBasis()
+        {
+                                    // Enter text '1.2' in 'PostedBasisNumber'
+                                    Actions.SetText(Pages.TransactionsHRVYSTHEDGE.PostedBasisNumber, "");
+                                    Pages.TransactionsHRVYSTHEDGE.PostedBasisNumber.ScrollToVisible(ArtOfTest.WebAii.Core.ScrollToVisibleType.ElementCenterAtWindowCenter);
+                                    ActiveBrowser.Window.SetFocus();
+                                    Pages.TransactionsHRVYSTHEDGE.PostedBasisNumber.Focus();
+                                    Pages.TransactionsHRVYSTHEDGE.PostedBasisNumber.MouseClick();
+                                   //   Manager.Desktop.KeyBoard.KeyPress(Keys.Up);
+                                   Manager.Desktop.KeyBoard.TypeText("", 50, 100, true);
+                                   Manager.Desktop.KeyBoard.TypeText("1.3", 50, 100, true);
+                                    
+        }
     }
 }

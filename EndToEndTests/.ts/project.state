@@ -2,14 +2,10 @@
 <ArrayOfOpenItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <OpenItem>
     <OpenItemType>TestFile</OpenItemType>
-    <Path>C:\Users\cjacobs\EndToEndTests\EndToEndTests\Offers\AddOffer\MarketOpen\AddOffer53_BypassOn_MarketOpen_FlatPrice_5001_GTC_Rejected.tstest</Path>
+    <Path>C:\Users\cjacobs\EndToEndTests\EndToEndTests\Offers\AddOffer\MarketOpen\AddOffer38_BypassOn_MarketOpen_Basis_2000_GTC_Working.tstest</Path>
   </OpenItem>
   <OpenItem>
     <OpenItemType>CodeFile</OpenItemType>
-    <Path>C:\Users\cjacobs\EndToEndTests\EndToEndTests\Offers\AddOffer\MarketOpen\AddOffer57_BypassOn_MarketOpen_FlatPrice_8001_GTC_Rejected.tstest.cs</Path>
-  </OpenItem>
-  <OpenItem>
-    <OpenItemType>TestFile</OpenItemType>
-    <Path>C:\Users\cjacobs\EndToEndTests\EndToEndTests\Offers\AddOffer\MarketOpen\AddOffer56_BypassOn_MarketOpen_FlatPrice_8001_Future_Working.tstest</Path>
+    <Path>C:\Users\cjacobs\EndToEndTests\EndToEndTests\Offers\AddOffer\MarketOpen\AddOffer38_BypassOn_MarketOpen_Basis_2000_GTC_Working.tstest.cs</Path>
   </OpenItem>
 </ArrayOfOpenItem>

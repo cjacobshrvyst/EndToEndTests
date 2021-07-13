@@ -1,0 +1,1564 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.Execution.RunResult",
+  "__value": {
+    "IsComplete": true,
+    "Name": "test list",
+    "StartTime": "2021-07-12T14:19:37Z",
+    "EndTime": "2021-07-12T14:20:44.2703179Z",
+    "Id": "e97e0753-98b2-4698-aaed-a5db3f9ac010",
+    "PassedResult": false,
+    "IsRerun": false,
+    "HasWarnings": false,
+    "PassedCount": 0,
+    "FailedCount": 2,
+    "NotRunCount": 0,
+    "DispatchGroupId": "00000000-0000-0000-0000-000000000000",
+    "DataCollectors": {},
+    "TestResults": [
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestResult",
+        "__value": {
+          "Browser": 7,
+          "ExeType": 5,
+          "SeparatorLineCharCount": 60,
+          "Message": "Overall Result: Fail\r\n------------------------------------------------------------\r\n'7/12/2021 2:19:38 PM' - Executing test: 'AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working', path: 'Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest.'\r\n'7/12/2021 2:19:38 PM' - Using .Net Runtime version: '4.0.30319.42000' for test execution. Build version is '2021.1.616.0'.\r\n'7/12/2021 2:19:38 PM' - Starting execution....\r\n------------------------------------------------------------\r\n'7/12/2021 2:19:38 PM' - Tip: The current monitor(s) setup is not at 100% scale!\nFor best recording and execution experience please set all monitor scaling to 100%.\r\n'7/12/2021 2:19:40 PM' - Detected custom code in test. Locating test assembly: EndToEndTests.dll.\r\n'7/12/2021 2:19:40 PM' - Assembly Found: C:\\Users\\cjacobs\\EndToEndTests\\EndToEndTests\\bin\\EndToEndTests.dll\r\n'7/12/2021 2:19:40 PM' - Loading code class: 'EndToEndTests.AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working'.\r\n------------------------------------------------------------\r\n------------------------------------------------------------\r\n'7/12/2021 2:19:40 PM' - Using 'Chrome' version '91.0.4472.124' as default browser. \r\n'7/12/2021 2:19:42 PM' - 'Pass' : 1. Navigate to : 'https://st-eastus-hrvyst-app.azurewebsites.net/transactions'\r\n'7/12/2021 2:19:43 PM' - 'Pass' : 2. Click 'OffersLabelTag'\r\n'7/12/2021 2:19:44 PM' - 'Pass' : 3. Click 'CreateOfferSpan'\r\n'7/12/2021 2:19:45 PM' - 'Pass' : 4. Click 'FlatPriceSpan'\r\n'7/12/2021 2:19:46 PM' - 'Pass' : 5. Click 'BasisDiv'\r\n'7/12/2021 2:19:47 PM' - 'Pass' : 6. Desktop command: LeftClick on Div\r\n'7/12/2021 2:19:48 PM' - 'Pass' : 7. Desktop command: LeftClick on Div6\r\n'7/12/2021 2:19:48 PM' - 'Pass' : 8. Desktop command: LeftClick on Div2\r\n'7/12/2021 2:19:49 PM' - 'Pass' : 9. Click 'LakeFallsDiv1'\r\n'7/12/2021 2:19:50 PM' - 'Pass' : 10. Desktop command: LeftClick on RcSelect23Text\r\n'7/12/2021 2:19:51 PM' - 'Pass' : 11. Click 'Div'\r\n'7/12/2021 2:19:51 PM' - 'Pass' : 12. Click 'LakeFallsDiv'\r\n'7/12/2021 2:19:52 PM' - 'Pass' : 13. Desktop command: LeftClick on RcSelect25Text\r\n'7/12/2021 2:19:53 PM' - 'Pass' : 14. Desktop command: LeftClick on JUN21Div\r\n'7/12/2021 2:19:54 PM' - 'Pass' : 15. Desktop command: LeftClick on Div\r\n'7/12/2021 2:19:54 PM' - 'Pass' : 16. Desktop command: LeftClick on PostedBasisNumber\r\n'7/12/2021 2:19:56 PM' - 'Pass' : 17. Enter text '1.2' in 'PostedBasisNumber'\r\n'7/12/2021 2:19:56 PM' - 'Pass' : 18. Scroll QuantityText to top of window.\r\n'7/12/2021 2:19:57 PM' - 'Pass' : 19. Desktop command: LeftClick on QuantityText\r\n'7/12/2021 2:19:58 PM' - 'Pass' : 20. Enter text '2,000' in 'QuantityText'\r\n'7/12/2021 2:19:59 PM' - 'Pass' : 21. Desktop command: LeftClick on Text\r\n'7/12/2021 2:20:02 PM' - 'Pass' : 22. Enter text '754' in 'Text'\r\n'7/12/2021 2:20:03 PM' - 'Pass' : 23. Desktop command: LeftClick on RcSelect26Text\r\n'7/12/2021 2:20:04 PM' - 'Pass' : 24. Enter text 'maria' in 'RcSelect26Text'\r\n'7/12/2021 2:20:05 PM' - 'Pass' : 25. Desktop command: LeftClick on Div\r\n'7/12/2021 2:20:06 PM' - 'Pass' : 26. Desktop command: LeftClick on RcSelect27Text\r\n'7/12/2021 2:20:07 PM' - 'Pass' : 27. Enter text 'lana' in 'RcSelect27Text'\r\n'7/12/2021 2:20:08 PM' - 'Pass' : 28. Desktop command: LeftClick on Div\r\n'7/12/2021 2:20:08 PM' - 'Pass' : 29. Click 'SubmitOfferSpan'\r\n'7/12/2021 2:20:09 PM' - 'Pass' : 30. Wait for '500' msec.\r\n'7/12/2021 2:20:10 PM' - 'Fail' : 31. Verify 'TextContent' 'Contains' '$1.2000' on 'TableRow'\r\n------------------------------------------------------------\r\nFailure Information: \r\n~~~~~~~~~~~~~~~\r\nContent.TextContent of 'TableRow' does not match!\n\n   Match Type: 'Contains'\n   Expected Result: '$1.2000'\n   Value at time of failure: '$0.0000'\r\n------------------------------------------------------------\r\n'7/12/2021 2:20:10 PM' - Detected a failure. Step is marked 'ContinueOnFailure=False' aborting test execution.\r\n------------------------------------------------------------\r\n'7/12/2021 2:20:10 PM' - Overall Result: Fail\r\n'7/12/2021 2:20:10 PM' - Duration: [0 min: 29 sec: 959 msec]\r\n------------------------------------------------------------\r\n'7/12/2021 2:20:10 PM' - Test completed!\r\n",
+          "ScreenRecordingResultPath": null,
+          "ScreenRecordingResultError": null,
+          "ScreenRecordingResultCodec": null,
+          "ScreenRecordingResultSize": 0,
+          "FailureException": {
+  "__type": "ArtOfTest.Common.Design.Exceptions.VerificationException",
+  "__value": {
+    "message": "Content.TextContent of 'TableRow' does not match!\n\n   Match Type: 'Contains'\n   Expected Result: '$1.2000'\n   Value at time of failure: '$0.0000'",
+    "DataProvider": {
+      "__type": "ArtOfTest.Common.Design.Exceptions.ErrorDataProvider",
+      "__value": {
+        "_info": {
+          "HostState": {
+            "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+            "__value": {
+              "Mode": 2,
+              "DomFilePath": "test list 132705732442773208_files\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working_0_DomTreeOnFailure.txt",
+              "ImageFilePath": "test list 132705732442773208_files\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working_0_ImageOnFailure.png",
+              "ExpectedImageFilePath": null,
+              "TechnologyType": 1,
+              "FriendlyName": "Capture Of 'Page (Transactions - HRVYSTHEDGE)' @7/12/2021 2:20:10 PM"
+            }
+          },
+          "VerificationResult": {
+            "__type": "ArtOfTest.Common.Design.Extensibility.VerificationResult",
+            "__value": {
+              "Passed": false,
+              "ErrorMessage": "Content.TextContent of 'TableRow' does not match!\n\n   Match Type: 'Contains'\n   Expected Result: '$1.2000'\n   Value at time of failure: '$0.0000'",
+              "WarningMessage": null
+            }
+          },
+          "ValueStore": {
+            "__type": "ArtOfTest.Common.Design.Extensibility.DescriptorValueStore",
+            "__value": {
+              "_store": {
+                "ExpectedString": "$0.0000"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+},
+          "Result": 1,
+          "TestId": "00d3cc27-130d-431b-9409-27ba4980e573",
+          "TestName": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working",
+          "IsRerun": false,
+          "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest",
+          "TestOwner": "",
+          "TestDescription": "",
+          "ProjectPath": "",
+          "StepResults": [
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest",
+                "TestId": "00d3cc27-130d-431b-9409-27ba4980e573",
+                "TestStepIndex": 0,
+                "StepDescription": "Navigate to : 'https://st-eastus-hrvyst-app.azurewebsites.net/transactions'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 1,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1347723234,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest",
+                "TestId": "00d3cc27-130d-431b-9409-27ba4980e573",
+                "TestStepIndex": 1,
+                "StepDescription": "Click 'OffersLabelTag'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 2,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960561,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest",
+                "TestId": "00d3cc27-130d-431b-9409-27ba4980e573",
+                "TestStepIndex": 2,
+                "StepDescription": "Click 'CreateOfferSpan'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 3,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960562,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest",
+                "TestId": "00d3cc27-130d-431b-9409-27ba4980e573",
+                "TestStepIndex": 3,
+                "StepDescription": "Click 'FlatPriceSpan'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 4,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960563,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest",
+                "TestId": "00d3cc27-130d-431b-9409-27ba4980e573",
+                "TestStepIndex": 4,
+                "StepDescription": "Click 'BasisDiv'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 5,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960564,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest",
+                "TestId": "00d3cc27-130d-431b-9409-27ba4980e573",
+                "TestStepIndex": 5,
+                "StepDescription": "Desktop command: LeftClick on Div",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 6,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1877738756,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest",
+                "TestId": "00d3cc27-130d-431b-9409-27ba4980e573",
+                "TestStepIndex": 6,
+                "StepDescription": "Desktop command: LeftClick on Div6",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 7,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1877738757,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest",
+                "TestId": "00d3cc27-130d-431b-9409-27ba4980e573",
+                "TestStepIndex": 7,
+                "StepDescription": "Desktop command: LeftClick on Div2",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 8,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1877738758,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest",
+                "TestId": "00d3cc27-130d-431b-9409-27ba4980e573",
+                "TestStepIndex": 8,
+                "StepDescription": "Click 'LakeFallsDiv1'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 9,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960568,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest",
+                "TestId": "00d3cc27-130d-431b-9409-27ba4980e573",
+                "TestStepIndex": 9,
+                "StepDescription": "Desktop command: LeftClick on RcSelect23Text",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 10,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1877738760,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest",
+                "TestId": "00d3cc27-130d-431b-9409-27ba4980e573",
+                "TestStepIndex": 10,
+                "StepDescription": "Click 'Div'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 11,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960570,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest",
+                "TestId": "00d3cc27-130d-431b-9409-27ba4980e573",
+                "TestStepIndex": 11,
+                "StepDescription": "Click 'LakeFallsDiv'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 12,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960571,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest",
+                "TestId": "00d3cc27-130d-431b-9409-27ba4980e573",
+                "TestStepIndex": 12,
+                "StepDescription": "Desktop command: LeftClick on RcSelect25Text",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 13,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1877738763,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest",
+                "TestId": "00d3cc27-130d-431b-9409-27ba4980e573",
+                "TestStepIndex": 13,
+                "StepDescription": "Desktop command: LeftClick on JUN21Div",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 14,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1877738764,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest",
+                "TestId": "00d3cc27-130d-431b-9409-27ba4980e573",
+                "TestStepIndex": 14,
+                "StepDescription": "Desktop command: LeftClick on Div",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 15,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1877738765,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest",
+                "TestId": "00d3cc27-130d-431b-9409-27ba4980e573",
+                "TestStepIndex": 15,
+                "StepDescription": "Desktop command: LeftClick on PostedBasisNumber",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 16,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1877738766,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest",
+                "TestId": "00d3cc27-130d-431b-9409-27ba4980e573",
+                "TestStepIndex": 16,
+                "StepDescription": "Enter text '1.2' in 'PostedBasisNumber'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 17,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2113398282,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest",
+                "TestId": "00d3cc27-130d-431b-9409-27ba4980e573",
+                "TestStepIndex": 17,
+                "StepDescription": "Scroll QuantityText to top of window.",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 18,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 242337438,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest",
+                "TestId": "00d3cc27-130d-431b-9409-27ba4980e573",
+                "TestStepIndex": 18,
+                "StepDescription": "Desktop command: LeftClick on QuantityText",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 19,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1877738769,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest",
+                "TestId": "00d3cc27-130d-431b-9409-27ba4980e573",
+                "TestStepIndex": 19,
+                "StepDescription": "Enter text '2,000' in 'QuantityText'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 20,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498622,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest",
+                "TestId": "00d3cc27-130d-431b-9409-27ba4980e573",
+                "TestStepIndex": 20,
+                "StepDescription": "Desktop command: LeftClick on Text",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 21,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1877738771,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest",
+                "TestId": "00d3cc27-130d-431b-9409-27ba4980e573",
+                "TestStepIndex": 21,
+                "StepDescription": "Enter text '754' in 'Text'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 22,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2113398287,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest",
+                "TestId": "00d3cc27-130d-431b-9409-27ba4980e573",
+                "TestStepIndex": 22,
+                "StepDescription": "Desktop command: LeftClick on RcSelect26Text",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 23,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1877738773,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest",
+                "TestId": "00d3cc27-130d-431b-9409-27ba4980e573",
+                "TestStepIndex": 23,
+                "StepDescription": "Enter text 'maria' in 'RcSelect26Text'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 24,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498626,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest",
+                "TestId": "00d3cc27-130d-431b-9409-27ba4980e573",
+                "TestStepIndex": 24,
+                "StepDescription": "Desktop command: LeftClick on Div",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 25,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1877738775,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest",
+                "TestId": "00d3cc27-130d-431b-9409-27ba4980e573",
+                "TestStepIndex": 25,
+                "StepDescription": "Desktop command: LeftClick on RcSelect27Text",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 26,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1877738776,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest",
+                "TestId": "00d3cc27-130d-431b-9409-27ba4980e573",
+                "TestStepIndex": 26,
+                "StepDescription": "Enter text 'lana' in 'RcSelect27Text'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 27,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498629,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest",
+                "TestId": "00d3cc27-130d-431b-9409-27ba4980e573",
+                "TestStepIndex": 27,
+                "StepDescription": "Desktop command: LeftClick on Div",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 28,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1877738778,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest",
+                "TestId": "00d3cc27-130d-431b-9409-27ba4980e573",
+                "TestStepIndex": 28,
+                "StepDescription": "Click 'SubmitOfferSpan'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 29,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960588,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest",
+                "TestId": "00d3cc27-130d-431b-9409-27ba4980e573",
+                "TestStepIndex": 29,
+                "StepDescription": "Wait for '500' msec.",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 30,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": -1280481801,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working.tstest",
+                "TestId": "00d3cc27-130d-431b-9409-27ba4980e573",
+                "TestStepIndex": 30,
+                "StepDescription": "Verify 'TextContent' 'Contains' '$1.2000' on 'TableRow'",
+                "Exception": {
+  "__type": "ArtOfTest.Common.Design.Exceptions.VerificationException",
+  "__value": {
+    "message": "Content.TextContent of 'TableRow' does not match!\n\n   Match Type: 'Contains'\n   Expected Result: '$1.2000'\n   Value at time of failure: '$0.0000'",
+    "DataProvider": {
+      "__type": "ArtOfTest.Common.Design.Exceptions.ErrorDataProvider",
+      "__value": {
+        "_info": {
+          "HostState": {
+            "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+            "__value": {
+              "Mode": 2,
+              "DomFilePath": "test list 132705732442773208_files\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working_0_DomTreeOnFailure.txt",
+              "ImageFilePath": "test list 132705732442773208_files\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working_0_ImageOnFailure.png",
+              "ExpectedImageFilePath": null,
+              "TechnologyType": 1,
+              "FriendlyName": "Capture Of 'Page (Transactions - HRVYSTHEDGE)' @7/12/2021 2:20:10 PM"
+            }
+          },
+          "VerificationResult": {
+            "__type": "ArtOfTest.Common.Design.Extensibility.VerificationResult",
+            "__value": {
+              "Passed": false,
+              "ErrorMessage": "Content.TextContent of 'TableRow' does not match!\n\n   Match Type: 'Contains'\n   Expected Result: '$1.2000'\n   Value at time of failure: '$0.0000'",
+              "WarningMessage": null
+            }
+          },
+          "ValueStore": {
+            "__type": "ArtOfTest.Common.Design.Extensibility.DescriptorValueStore",
+            "__value": {
+              "_store": {
+                "ExpectedString": "$0.0000"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+},
+                "ResultType": 1,
+                "State": {
+                  "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                  "__value": {
+                    "Mode": 2,
+                    "DomFilePath": "test list 132705732442773208_files\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working_0_DomTreeOnFailure.txt",
+                    "ImageFilePath": "test list 132705732442773208_files\\AddOffer35_BypassOn_MarketOpen_Basis_2000_Today_Working_0_ImageOnFailure.png",
+                    "ExpectedImageFilePath": null,
+                    "TechnologyType": 1,
+                    "FriendlyName": "Capture Of 'Page (Transactions - HRVYSTHEDGE)' @7/12/2021 2:20:10 PM"
+                  }
+                },
+                "Order": 31,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": -1313506143,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            }
+          ],
+          "NotRunStepDescriptions": [
+            "Extract 'TextContent' on 'TFWD04027Span' into DataBindVariable $(OrderNoSpan)",
+            "Click 'ReviewLabelTag'",
+            "Desktop command: LeftClick on SvgTag",
+            "Desktop command: LeftClick on ViewDetailsSpan",
+            "Verify 'TextContent' 'NotContain' '' on 'TZ001997Span' - DataDriven: [$(OrderNoSpan)]"
+          ],
+          "TotalPassedSteps": 30,
+          "ExecutingTestStepCount": 31,
+          "TotalNumberOfNotRunSteps": 0,
+          "IsDataDrivenResult": false,
+          "DataIterationResults": [],
+          "EndTime": "2021-07-12T14:20:10.5444237Z",
+          "StartTime": "2021-07-12T14:19:40.5850449Z",
+          "ProfilerResultsPath": null,
+          "VersionGroupKey": "00000000-0000-0000-0000-000000000000",
+          "CommitedBy": null,
+          "HasWarnings": false
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestResult",
+        "__value": {
+          "Browser": 7,
+          "ExeType": 5,
+          "SeparatorLineCharCount": 60,
+          "Message": "Overall Result: Fail\r\n------------------------------------------------------------\r\n'7/12/2021 2:20:11 PM' - Executing test: 'AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working', path: 'Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest.'\r\n'7/12/2021 2:20:11 PM' - Using .Net Runtime version: '4.0.30319.42000' for test execution. Build version is '2021.1.616.0'.\r\n'7/12/2021 2:20:11 PM' - Starting execution....\r\n------------------------------------------------------------\r\n'7/12/2021 2:20:11 PM' - Tip: The current monitor(s) setup is not at 100% scale!\nFor best recording and execution experience please set all monitor scaling to 100%.\r\n'7/12/2021 2:20:13 PM' - Detected custom code in test. Locating test assembly: EndToEndTests.dll.\r\n'7/12/2021 2:20:13 PM' - Assembly Found: C:\\Users\\cjacobs\\EndToEndTests\\EndToEndTests\\bin\\EndToEndTests.dll\r\n'7/12/2021 2:20:13 PM' - Loading code class: 'EndToEndTests.AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working'.\r\n------------------------------------------------------------\r\n------------------------------------------------------------\r\n'7/12/2021 2:20:13 PM' - Using 'Chrome' version '91.0.4472.124' as default browser. \r\n'7/12/2021 2:20:15 PM' - 'Pass' : 1. Navigate to : 'https://st-eastus-hrvyst-app.azurewebsites.net/transactions'\r\n'7/12/2021 2:20:16 PM' - 'Pass' : 2. Click 'OffersLabelTag'\r\n'7/12/2021 2:20:17 PM' - 'Pass' : 3. Click 'CreateOfferSpan'\r\n'7/12/2021 2:20:18 PM' - 'Pass' : 4. Click 'FlatPriceSpan'\r\n'7/12/2021 2:20:19 PM' - 'Pass' : 5. Click 'BasisDiv'\r\n'7/12/2021 2:20:20 PM' - 'Pass' : 6. Desktop command: LeftClick on Div\r\n'7/12/2021 2:20:21 PM' - 'Pass' : 7. Desktop command: LeftClick on Div6\r\n'7/12/2021 2:20:21 PM' - 'Pass' : 8. Desktop command: LeftClick on Div2\r\n'7/12/2021 2:20:22 PM' - 'Pass' : 9. Click 'LakeFallsDiv1'\r\n'7/12/2021 2:20:23 PM' - 'Pass' : 10. Desktop command: LeftClick on RcSelect23Text\r\n'7/12/2021 2:20:24 PM' - 'Pass' : 11. Click 'Div'\r\n'7/12/2021 2:20:24 PM' - 'Pass' : 12. Click 'LakeFallsDiv'\r\n'7/12/2021 2:20:25 PM' - 'Pass' : 13. Desktop command: LeftClick on RcSelect25Text\r\n'7/12/2021 2:20:26 PM' - 'Pass' : 14. Desktop command: LeftClick on JUN21Div\r\n'7/12/2021 2:20:27 PM' - 'Pass' : 15. Desktop command: LeftClick on Div\r\n'7/12/2021 2:20:27 PM' - 'Pass' : 16. Desktop command: LeftClick on PostedBasisNumber\r\n'7/12/2021 2:20:29 PM' - 'Pass' : 17. Enter text '1.2' in 'PostedBasisNumber'\r\n'7/12/2021 2:20:29 PM' - 'Pass' : 18. Scroll QuantityText to top of window.\r\n'7/12/2021 2:20:30 PM' - 'Pass' : 19. Desktop command: LeftClick on QuantityText\r\n'7/12/2021 2:20:31 PM' - 'Pass' : 20. Enter text '2,000' in 'QuantityText'\r\n'7/12/2021 2:20:32 PM' - 'Pass' : 21. Desktop command: LeftClick on Text\r\n'7/12/2021 2:20:35 PM' - 'Pass' : 22. Enter text '754' in 'Text'\r\n'7/12/2021 2:20:36 PM' - 'Pass' : 23. Desktop command: LeftClick on RcSelect26Text\r\n'7/12/2021 2:20:37 PM' - 'Pass' : 24. Enter text 'maria' in 'RcSelect26Text'\r\n'7/12/2021 2:20:38 PM' - 'Pass' : 25. Desktop command: LeftClick on Div\r\n'7/12/2021 2:20:39 PM' - 'Pass' : 26. Desktop command: LeftClick on RcSelect27Text\r\n'7/12/2021 2:20:40 PM' - 'Pass' : 27. Enter text 'lana' in 'RcSelect27Text'\r\n'7/12/2021 2:20:41 PM' - 'Pass' : 28. Desktop command: LeftClick on Div\r\n'7/12/2021 2:20:42 PM' - 'Pass' : 29. Click 'SubmitOfferSpan'\r\n'7/12/2021 2:20:42 PM' - 'Pass' : 30. Wait for '500' msec.\r\n'7/12/2021 2:20:43 PM' - 'Fail' : 31. Verify 'TextContent' 'Contains' '$1.2000' on 'TableRow'\r\n------------------------------------------------------------\r\nFailure Information: \r\n~~~~~~~~~~~~~~~\r\nContent.TextContent of 'TableRow' does not match!\n\n   Match Type: 'Contains'\n   Expected Result: '$1.2000'\n   Value at time of failure: '$0.0000'\r\n------------------------------------------------------------\r\n'7/12/2021 2:20:43 PM' - Detected a failure. Step is marked 'ContinueOnFailure=False' aborting test execution.\r\n------------------------------------------------------------\r\n'7/12/2021 2:20:43 PM' - Overall Result: Fail\r\n'7/12/2021 2:20:43 PM' - Duration: [0 min: 29 sec: 835 msec]\r\n------------------------------------------------------------\r\n'7/12/2021 2:20:43 PM' - Test completed!\r\n",
+          "ScreenRecordingResultPath": null,
+          "ScreenRecordingResultError": null,
+          "ScreenRecordingResultCodec": null,
+          "ScreenRecordingResultSize": 0,
+          "FailureException": {
+  "__type": "ArtOfTest.Common.Design.Exceptions.VerificationException",
+  "__value": {
+    "message": "Content.TextContent of 'TableRow' does not match!\n\n   Match Type: 'Contains'\n   Expected Result: '$1.2000'\n   Value at time of failure: '$0.0000'",
+    "DataProvider": {
+      "__type": "ArtOfTest.Common.Design.Exceptions.ErrorDataProvider",
+      "__value": {
+        "_info": {
+          "HostState": {
+            "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+            "__value": {
+              "Mode": 2,
+              "DomFilePath": "test list 132705732442773208_files\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working_0_DomTreeOnFailure.txt",
+              "ImageFilePath": "test list 132705732442773208_files\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working_0_ImageOnFailure.png",
+              "ExpectedImageFilePath": null,
+              "TechnologyType": 1,
+              "FriendlyName": "Capture Of 'Page (Transactions - HRVYSTHEDGE)' @7/12/2021 2:20:43 PM"
+            }
+          },
+          "VerificationResult": {
+            "__type": "ArtOfTest.Common.Design.Extensibility.VerificationResult",
+            "__value": {
+              "Passed": false,
+              "ErrorMessage": "Content.TextContent of 'TableRow' does not match!\n\n   Match Type: 'Contains'\n   Expected Result: '$1.2000'\n   Value at time of failure: '$0.0000'",
+              "WarningMessage": null
+            }
+          },
+          "ValueStore": {
+            "__type": "ArtOfTest.Common.Design.Extensibility.DescriptorValueStore",
+            "__value": {
+              "_store": {
+                "ExpectedString": "$0.0000"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+},
+          "Result": 1,
+          "TestId": "1ff9e9fb-8fc3-49ee-9ee5-8e54dad04567",
+          "TestName": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working",
+          "IsRerun": false,
+          "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest",
+          "TestOwner": "",
+          "TestDescription": "",
+          "ProjectPath": "",
+          "StepResults": [
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest",
+                "TestId": "1ff9e9fb-8fc3-49ee-9ee5-8e54dad04567",
+                "TestStepIndex": 0,
+                "StepDescription": "Navigate to : 'https://st-eastus-hrvyst-app.azurewebsites.net/transactions'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 1,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1347723234,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest",
+                "TestId": "1ff9e9fb-8fc3-49ee-9ee5-8e54dad04567",
+                "TestStepIndex": 1,
+                "StepDescription": "Click 'OffersLabelTag'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 2,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960561,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest",
+                "TestId": "1ff9e9fb-8fc3-49ee-9ee5-8e54dad04567",
+                "TestStepIndex": 2,
+                "StepDescription": "Click 'CreateOfferSpan'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 3,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960562,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest",
+                "TestId": "1ff9e9fb-8fc3-49ee-9ee5-8e54dad04567",
+                "TestStepIndex": 3,
+                "StepDescription": "Click 'FlatPriceSpan'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 4,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960563,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest",
+                "TestId": "1ff9e9fb-8fc3-49ee-9ee5-8e54dad04567",
+                "TestStepIndex": 4,
+                "StepDescription": "Click 'BasisDiv'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 5,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960564,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest",
+                "TestId": "1ff9e9fb-8fc3-49ee-9ee5-8e54dad04567",
+                "TestStepIndex": 5,
+                "StepDescription": "Desktop command: LeftClick on Div",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 6,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1877738756,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest",
+                "TestId": "1ff9e9fb-8fc3-49ee-9ee5-8e54dad04567",
+                "TestStepIndex": 6,
+                "StepDescription": "Desktop command: LeftClick on Div6",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 7,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1877738757,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest",
+                "TestId": "1ff9e9fb-8fc3-49ee-9ee5-8e54dad04567",
+                "TestStepIndex": 7,
+                "StepDescription": "Desktop command: LeftClick on Div2",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 8,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1877738758,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest",
+                "TestId": "1ff9e9fb-8fc3-49ee-9ee5-8e54dad04567",
+                "TestStepIndex": 8,
+                "StepDescription": "Click 'LakeFallsDiv1'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 9,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960568,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest",
+                "TestId": "1ff9e9fb-8fc3-49ee-9ee5-8e54dad04567",
+                "TestStepIndex": 9,
+                "StepDescription": "Desktop command: LeftClick on RcSelect23Text",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 10,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1877738760,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest",
+                "TestId": "1ff9e9fb-8fc3-49ee-9ee5-8e54dad04567",
+                "TestStepIndex": 10,
+                "StepDescription": "Click 'Div'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 11,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960570,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest",
+                "TestId": "1ff9e9fb-8fc3-49ee-9ee5-8e54dad04567",
+                "TestStepIndex": 11,
+                "StepDescription": "Click 'LakeFallsDiv'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 12,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960571,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest",
+                "TestId": "1ff9e9fb-8fc3-49ee-9ee5-8e54dad04567",
+                "TestStepIndex": 12,
+                "StepDescription": "Desktop command: LeftClick on RcSelect25Text",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 13,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1877738763,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest",
+                "TestId": "1ff9e9fb-8fc3-49ee-9ee5-8e54dad04567",
+                "TestStepIndex": 13,
+                "StepDescription": "Desktop command: LeftClick on JUN21Div",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 14,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1877738764,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest",
+                "TestId": "1ff9e9fb-8fc3-49ee-9ee5-8e54dad04567",
+                "TestStepIndex": 14,
+                "StepDescription": "Desktop command: LeftClick on Div",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 15,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1877738765,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest",
+                "TestId": "1ff9e9fb-8fc3-49ee-9ee5-8e54dad04567",
+                "TestStepIndex": 15,
+                "StepDescription": "Desktop command: LeftClick on PostedBasisNumber",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 16,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1877738766,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest",
+                "TestId": "1ff9e9fb-8fc3-49ee-9ee5-8e54dad04567",
+                "TestStepIndex": 16,
+                "StepDescription": "Enter text '1.2' in 'PostedBasisNumber'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 17,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2113398282,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest",
+                "TestId": "1ff9e9fb-8fc3-49ee-9ee5-8e54dad04567",
+                "TestStepIndex": 17,
+                "StepDescription": "Scroll QuantityText to top of window.",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 18,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 242337438,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest",
+                "TestId": "1ff9e9fb-8fc3-49ee-9ee5-8e54dad04567",
+                "TestStepIndex": 18,
+                "StepDescription": "Desktop command: LeftClick on QuantityText",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 19,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1877738769,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest",
+                "TestId": "1ff9e9fb-8fc3-49ee-9ee5-8e54dad04567",
+                "TestStepIndex": 19,
+                "StepDescription": "Enter text '2,000' in 'QuantityText'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 20,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498622,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest",
+                "TestId": "1ff9e9fb-8fc3-49ee-9ee5-8e54dad04567",
+                "TestStepIndex": 20,
+                "StepDescription": "Desktop command: LeftClick on Text",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 21,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1877738771,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest",
+                "TestId": "1ff9e9fb-8fc3-49ee-9ee5-8e54dad04567",
+                "TestStepIndex": 21,
+                "StepDescription": "Enter text '754' in 'Text'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 22,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2113398287,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest",
+                "TestId": "1ff9e9fb-8fc3-49ee-9ee5-8e54dad04567",
+                "TestStepIndex": 22,
+                "StepDescription": "Desktop command: LeftClick on RcSelect26Text",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 23,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1877738773,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest",
+                "TestId": "1ff9e9fb-8fc3-49ee-9ee5-8e54dad04567",
+                "TestStepIndex": 23,
+                "StepDescription": "Enter text 'maria' in 'RcSelect26Text'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 24,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498626,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest",
+                "TestId": "1ff9e9fb-8fc3-49ee-9ee5-8e54dad04567",
+                "TestStepIndex": 24,
+                "StepDescription": "Desktop command: LeftClick on Div",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 25,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1877738775,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest",
+                "TestId": "1ff9e9fb-8fc3-49ee-9ee5-8e54dad04567",
+                "TestStepIndex": 25,
+                "StepDescription": "Desktop command: LeftClick on RcSelect27Text",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 26,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1877738776,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest",
+                "TestId": "1ff9e9fb-8fc3-49ee-9ee5-8e54dad04567",
+                "TestStepIndex": 26,
+                "StepDescription": "Enter text 'lana' in 'RcSelect27Text'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 27,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498629,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest",
+                "TestId": "1ff9e9fb-8fc3-49ee-9ee5-8e54dad04567",
+                "TestStepIndex": 27,
+                "StepDescription": "Desktop command: LeftClick on Div",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 28,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1877738778,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest",
+                "TestId": "1ff9e9fb-8fc3-49ee-9ee5-8e54dad04567",
+                "TestStepIndex": 28,
+                "StepDescription": "Click 'SubmitOfferSpan'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 29,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960588,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest",
+                "TestId": "1ff9e9fb-8fc3-49ee-9ee5-8e54dad04567",
+                "TestStepIndex": 29,
+                "StepDescription": "Wait for '500' msec.",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 30,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": -1280481801,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working",
+                "TestPath": "Offers\\AddOffer\\MarketOpen\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working.tstest",
+                "TestId": "1ff9e9fb-8fc3-49ee-9ee5-8e54dad04567",
+                "TestStepIndex": 30,
+                "StepDescription": "Verify 'TextContent' 'Contains' '$1.2000' on 'TableRow'",
+                "Exception": {
+  "__type": "ArtOfTest.Common.Design.Exceptions.VerificationException",
+  "__value": {
+    "message": "Content.TextContent of 'TableRow' does not match!\n\n   Match Type: 'Contains'\n   Expected Result: '$1.2000'\n   Value at time of failure: '$0.0000'",
+    "DataProvider": {
+      "__type": "ArtOfTest.Common.Design.Exceptions.ErrorDataProvider",
+      "__value": {
+        "_info": {
+          "HostState": {
+            "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+            "__value": {
+              "Mode": 2,
+              "DomFilePath": "test list 132705732442773208_files\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working_0_DomTreeOnFailure.txt",
+              "ImageFilePath": "test list 132705732442773208_files\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working_0_ImageOnFailure.png",
+              "ExpectedImageFilePath": null,
+              "TechnologyType": 1,
+              "FriendlyName": "Capture Of 'Page (Transactions - HRVYSTHEDGE)' @7/12/2021 2:20:43 PM"
+            }
+          },
+          "VerificationResult": {
+            "__type": "ArtOfTest.Common.Design.Extensibility.VerificationResult",
+            "__value": {
+              "Passed": false,
+              "ErrorMessage": "Content.TextContent of 'TableRow' does not match!\n\n   Match Type: 'Contains'\n   Expected Result: '$1.2000'\n   Value at time of failure: '$0.0000'",
+              "WarningMessage": null
+            }
+          },
+          "ValueStore": {
+            "__type": "ArtOfTest.Common.Design.Extensibility.DescriptorValueStore",
+            "__value": {
+              "_store": {
+                "ExpectedString": "$0.0000"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+},
+                "ResultType": 1,
+                "State": {
+                  "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                  "__value": {
+                    "Mode": 2,
+                    "DomFilePath": "test list 132705732442773208_files\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working_0_DomTreeOnFailure.txt",
+                    "ImageFilePath": "test list 132705732442773208_files\\AddOffer36_BypassOn_MarketOpen_Basis_2000_Future_Working_0_ImageOnFailure.png",
+                    "ExpectedImageFilePath": null,
+                    "TechnologyType": 1,
+                    "FriendlyName": "Capture Of 'Page (Transactions - HRVYSTHEDGE)' @7/12/2021 2:20:43 PM"
+                  }
+                },
+                "Order": 31,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": -1313506143,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            }
+          ],
+          "NotRunStepDescriptions": [
+            "Extract 'TextContent' on 'TFWD04027Span' into DataBindVariable $(OrderNoSpan)",
+            "Click 'ReviewLabelTag'",
+            "Desktop command: LeftClick on SvgTag",
+            "Desktop command: LeftClick on ViewDetailsSpan",
+            "Verify 'TextContent' 'NotContain' '' on 'TZ001997Span' - DataDriven: [$(OrderNoSpan)]"
+          ],
+          "TotalPassedSteps": 30,
+          "ExecutingTestStepCount": 31,
+          "TotalNumberOfNotRunSteps": 0,
+          "IsDataDrivenResult": false,
+          "DataIterationResults": [],
+          "EndTime": "2021-07-12T14:20:43.416304Z",
+          "StartTime": "2021-07-12T14:20:13.5804718Z",
+          "ProfilerResultsPath": null,
+          "VersionGroupKey": "00000000-0000-0000-0000-000000000000",
+          "CommitedBy": null,
+          "HasWarnings": false
+        }
+      }
+    ],
+    "FileName": "test list 132705732442773208",
+    "Machine": {
+      "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.Machine",
+      "__value": {
+        "Id": "00000000-0000-0000-0000-000000000000",
+        "NetworkName": "CJ-Win10",
+        "OperatingSystem": "Windows 10",
+        "InstalledBrowsers": [
+          {
+            "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+            "__value": {
+              "Type": 1,
+              "Version": "9.11.19041.0",
+              "IsConfigured": true
+            }
+          },
+          {
+            "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+            "__value": {
+              "Type": 7,
+              "Version": "91.0.4472.124",
+              "IsConfigured": true
+            }
+          },
+          {
+            "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+            "__value": {
+              "Type": 10,
+              "Version": "91.0.864.67",
+              "IsConfigured": false
+            }
+          }
+        ],
+        "Status": 0,
+        "ServiceUri": null,
+        "DBState": 0,
+        "UserName": "cjacobs"
+      }
+    },
+    "Messages": null,
+    "RunId": "e97e0753-98b2-4698-aaed-a5db3f9ac010",
+    "Comment": null,
+    "TestListId": "fc39f174-d762-4654-91fa-9dcc2a8ecd7a",
+    "IsManual": false
+  }
+}
